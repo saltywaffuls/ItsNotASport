@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - It's Not A Sport</title>
+  <!-- Main site styles -->
+  <link rel="stylesheet" href="assets/main.css">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Portfolio-specific styles (grid + modal) -->
+  <link rel="stylesheet" href="assets/portfolio.css">
+</head>
+
+<body>
+
+  <!-- Header with logo and navigation -->
+  <header class="top-nav">
+    <a href="index.html">
+      <img src="assets/Images/logo.png" alt="Logo" class="logo" />
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align:center; margin-top: 40px;">Portfolio</h2>
+
+    <!-- Grid container for all projects -->
+    <div class="portfolio-grid">
+      <!-- Each .project div is one portfolio item -->
+      <!-- data-* attributes feed info into the modal dynamically -->
+      <div class="project" data-video="https://youtu.be/3PY8GjP3kvY" data-title="It's Not A Sport"
+        data-description="This long-running podcast explored the world of video games from every angle—game development, esports, industry trends, and beyond. Over the course of four years, I hosted and produced weekly episodes featuring in-depth discussions, personal insights, and guest speakers from across the gaming world.
+
+        As host and producer, I managed every aspect of production—from researching topics and scripting segments to recording, editing, and publishing episodes. The show offered listeners an honest, behind-the-scenes look at both indie and AAA development, while also covering the fast-evolving world of esports and gaming culture.
+        
+        This project was a passion-driven platform that helped me stay engaged with the industry, connect with other creatives, and sharpen my communication, production, and content strategy skills." data-link="https://www.youtube.com/@itsnotasport/videos">
+        <img src="assets/images/04.png" alt="Project 1">
+      </div>
+      <!-- Duplicate this block for more projects -->
+
+      <div class="project" data-video="https://youtu.be/MiyVqk45TvM" data-title="Run N Gun"
+        data-description="Roles: Lead Game Designer | Producer | Creative Director | Publisher.
+        
+        Run N’ Gun is a high-octane first-person arcade shooter that blends fast-paced combat with fluid movement mechanics. Skate and shoot your way through waves of enemy bots, upgrading your arsenal as you fight to become the ultimate champion. As the Protagonist Bot, you’ll need skill, speed, and strategy to outlast the relentless Antagonist Bots in a neon-lit arena of chaos.
+
+        This was a six-month capstone project where I wore multiple hats:
+
+        Lead Game Designer: I crafted core gameplay systems, balanced weapons and enemy AI, and fine-tuned combat flow to deliver tight, satisfying mechanics.
+
+        Producer: I led the team using Scrum methodology, organized sprints via Trello, and ensured we stayed on track and met deadlines.
+
+        Creative Director: I drove the visual and audio direction of the game—designing weapons, building the world’s tone, and shaping the style through shaders, lighting, post-processing, VFX, and SFX.
+
+        Publisher: I handled the game’s release on Steam, including marketing efforts, store page creation, trailer editing, promotional screenshots, and writing all official copy.
+
+        This project was a huge milestone in my game development journey—representing my growth not only as a designer, but as a leader, storyteller, and publisher.
+
+        Now available on Steam!" data-link="https://store.steampowered.com/app/1945060/Run_N_Gun/" >
+        <img src="assets/images/05.png" alt="Project 1">
+      </div>
+      <!-- Project WITHOUT Learn More link -->
+      <div class="project" data-video="https://youtu.be/D3H-RiImhHk" data-title="Black Friday Blitz"
+        data-description="Roles: Producer & Assistant Designer.
+        
+        Black Friday Blitz is a chaotic tower defense game created during a game jam, themed around the shopping frenzy of Black Friday. Players must strategically place defenses to fend off waves of eager shoppers, combining classic tower defense mechanics with a humorous twist.
+
+        As Producer, I led the team using a modified Waterfall development methodology to keep our short timeline organized and efficient. I coordinated task assignments, tracked progress, and ensured milestones were met. I also contributed as an Assistant Designer, supporting the core design team through brainstorming sessions, balance testing, and level pacing.
+
+        This project was a key moment in my early development as a game designer and team lead. Several team members from Black Friday Blitz would later collaborate with me on RNG, making this an important step in my journey as a developer.">
+        <img src="assets/images/06.png" alt="Project 2">
+      </div>
+
+      <div class="project" data-video="https://youtu.be/kOJXd5--32M" data-title="Math Racers"
+        data-description="Role: Artist & 3D Modeler.
+        
+        Math Racers is an educational racing game designed for kids, created as part of a competition project for Mathnasium. The game blends high-speed fun with quick math challenges, encouraging players to solve problems on the fly to gain speed boosts and win races. It was developed to make learning math both engaging and interactive.
+
+        I was responsible for all of the game’s visual elements, including environment art and car modeling. My focus was on creating a colorful, kid-friendly aesthetic that matched the game's educational goals and arcade-style energy.
+
+        Although the game was never officially showcased at Mathnasium due to the COVID-19 lockdown, it remains a fun and functional project that demonstrates how learning and gameplay can go hand in hand.">
+        <img src="assets/images/07.png" alt="Project 2">
+      </div>
+
+      <div class="project" data-video="https://youtu.be/GrZseZmCd7A" data-title="Dungeon Crawler"
+        data-description="Role: Solo Developer.
+        
+        This solo project was developed during a game development class with the goal of deepening my understanding of Unity3D and C# programming. As a longtime fan of classic Final Fantasy-style games, I set out to reverse-engineer the core systems of a turn-based RPG—from scratch.
+
+I built a working prototype that features turn-based combat, character stats, enemy AI behavior, and basic battle UI. This project challenged me to think critically about game architecture, state management, and modular design, while also refining my coding and debugging skills.
+
+It was a rewarding exercise in both technical problem-solving and honoring the design principles behind one of my favorite game genres.">
+        <img src="assets/images/08.png" alt="Project 2">
+      </div>
+
+      <div class="project" data-video="https://youtu.be/ytQAaUmCIlE" data-title="PISS OFF I’M INSTALLING SOFTWARE"
+        data-description="Role: Designer & Programmer.
+        
+        Pop-Up Panic is a fast-paced, arcade-style game centered around a familiar (and frustrating) digital nuisance: pop-up ads. Developed as a team project during college, the game challenges players to rapidly close an onslaught of intrusive ads while avoiding fake buttons, moving targets, and surprise distractions.
+
+        I designed the original concept and handled the core programming for the prototype. The goal was to create a fun and chaotic user experience that playfully satirizes internet browsing while testing players’ reflexes and attention to detail.
+
+        This project was a great opportunity to explore UI-based gameplay, fast input handling, and rapid prototyping in a collaborative environment.">
+        <img src="assets/images/09.png" alt="Project 2">
+      </div>
+
+      <div class="project" data-video="https://youtu.be/FNqIWL8VqFk" data-title="Golf"
+        data-description="Role: Game Developer  Focus: Level Design, Scripting, VFX, and Animation. 
+        
+        his low poly mini golf game was created as part of a class project, designed to strengthen our understanding of game development fundamentals using Unity. The goal was to build a simple yet functional game that helped us become more familiar with scripting and Unity’s core systems.
+
+        In this project, I focused on level design, gameplay scripting, particle effects, and basic animations. I created interactive environments, implemented game mechanics such as ball physics and scoring, and enhanced visual feedback through Unity’s Particle System and animation tools.
+
+        This project provided a solid foundation in Unity development and helped sharpen my skills in bringing gameplay concepts to life through code and design.">
+        <img src="assets/images/010.png" alt="Project 2">
+      </div>
+
+      <div class="project" data-video="https://youtu.be/6dlBgDoTM1I" data-title="Witch Brew (VR)"
+        data-description="Role: Programmer.
+
+        Witch Brew (VR) is a magical potion-making experience designed exclusively for the Oculus Quest 2. Step into the boots of a witch in training and immerse yourself in a whimsical forest hut, where you'll craft potions using mysterious ingredients, hand gestures, and magical tools. From levitating objects to stirring cauldrons with motion controls, every mechanic was built from the ground up to fully utilize the VR platform’s capabilities. The game emphasizes immersive interactions, intuitive controls, and a cozy, fantasy-themed atmosphere.
+
+        This project challenged me to explore new paradigms in VR development, including gesture recognition, spatial UI, and immersive feedback systems, pushing my programming skills to a new level.">
+        <img src="assets/images/011.png" alt="Project 2">
+      </div>
+
+      
+  </main>
+
+  <!-- Hidden modal that appears when a project is clicked -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <!-- Close button (× symbol) -->
+      <span class="close" onclick="closeModal()">&times;</span>
+      <!-- Project title dynamically filled -->
+      <h3 id="modal-title"></h3>
+      <!-- YouTube iframe filled from data-video -->
+      <iframe id="modal-video" src="" allowfullscreen></iframe>
+      <!-- Description pulled from data-description -->
+      <p id="modal-description"></p>
+
+      <!-- ✅ Add this "Learn More" button -->
+      <a href="#" class="learn-more-btn" target="_blank">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Footer with social icons -->
+  <footer class="footer-flex">
+    <div class="footer-left">
+      <ul class="icons">
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-right">
+      <p>Contact: itsnotasporte@gmail.com</p>
+      <p>&copy; 2025 It's Not A Sport LLC</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript that handles opening/closing the modal -->
+  <script src="assets/modal.js"></script>
+</body>
+
+</html>
